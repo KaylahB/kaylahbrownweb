@@ -12,7 +12,7 @@ header{
 	width: 200px;
 	height: 20px;
 	float :left;
-	margin-top: 30px;
+	margin-top: 15px;
 	background: url("../images/pedagogy.svg") no-repeat;
 	
 }
@@ -56,12 +56,46 @@ nav li a:active{
 
 .section-head{
 	text-align: center;
+	margin-bottom:5px;
+	margin-top:0;
 }
 .section-copy{
 	text-align: center;
 	font-size:1.2em;
 }
 	
+/*hero video*/
+
+.hero-overlay{
+	position: absolute;
+	top:136px;
+	height: 550px;
+	width: 940px;
+	z-index:100;
+	background-image: url("../images/imac.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	overflow: visible;
+}
+
+.hero-video{
+	width: 100%;
+	max-height: 580px;
+	overflow: hidden;
+}
+
+video{
+	min-height: 580px;
+}
+
+.hero-headline{
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+
+
 /*introduction*/
 .introduction {
 	width: 100%;
@@ -136,7 +170,7 @@ nav li a:active{
 .features-subhead{
 	text-align: left;
 	margin-left: 60px;
-	
+	 
 	
 }
 
@@ -253,7 +287,7 @@ nav li a:active{
 	
 }
 
-.location img {
+location img {
 	margin-bottom: 10px;
 }
 
@@ -287,25 +321,75 @@ nav li a:active{
 	font-weight:900;
 }
 
+/*footer*/
+
+footer{
+	width: 100%;
+	padding: 90px 0 80px 0;
+	text-align: center;
+	background-color: #3c3c3c;
+}
+
+footer a :link{
+	color:#959595;
+	text-decoration:none;
+	
+}
+
+footer a :visited{
+	color:#959595;
+	text-decoration:none;
+	
+}
+
+footer a :hover{
+	color:#ffffff;
+	text-decoration:none;
+	
+}
+
+footer a :active{
+	color:#ffffff;
+	text-decoration:none;
+	
+}
+
+.copyright{
+	width: 100%;
+	color:#959595;
+}
+.copyright p {
+	margin-bottom: 0;
+}
+.fa-linkedin,
+.fa-twitter,
+.fa-facebook-f{
+	font-size: 2em;
+	margin: 20px 5px 0 5px;
+	color: #959595;
+}
+
+.fa-linkedin:hover,
+.fa-twitter:hover,
+.fa-facebook-f:hover{
+	color: #ffffff;
 
 
+}
 
+/*desktopand and laptops*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (min-width : 1224px) {
+	
+	video{
+		width: 100%;
+		
+	}
+	
+	
+	
+	
+}
 
 
 
