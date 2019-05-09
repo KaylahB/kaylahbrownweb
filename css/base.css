@@ -1,14 +1,16 @@
+
 /*basic styles */
 
 	body {
 		
-		color: #2f2f2f;
-		font-family: 'roboto' , sans-serif;
+		color:#E6F2FF;
+		font-family:'Raleway', sans-serif;
 		font-style : normal;
 		font-weight:300;
-		line-height: 1.6em;
+		line-height: 1.7em;
 		text-align:left;
         font-size: 100%;
+		font-color:#B2C8DB;
           }
 
 
@@ -18,44 +20,44 @@ p{
 	margin: 0 0 20px 0;
 	}
 h1{ 
-	font-family:'roboto slab', serif;
+	font-family:'Raleway', sans-serif;
 	font-weight:500;
-	font-size:3.250em;
-	line-hight:1.1;
+	font-size:.250em;
+	line-height:1.1;
 }
 h2{
-	font-family:'roboto slab', serif;
+	font-family:'Raleway', sans-serif;
     font-weight:500;
 	font-size:2.500em;
-	line-hight:1.1;
+	line-height:1.1;
 }
 
-h3{font-family:'roboto slab', serif;
+h3{font-family:'Raleway', sans-serif;
     font-weight:500;
 	font-size:1.500em;
-	line-hight:1.1;
+	line-height:1.1;
 	
 }
-h4{font-family:'roboto slab', serif;
+h4{font-family:'Raleway', sans-serif;
     font-weight:900;
 	font-size:1em;
-	line-hight:1.1;
+	line-height:1.1;
 
 }
 h5{
-	font-family:'roboto slab', serif;
+	font-family:'Raleway', sans-serif;
     font-weight:900;
 	font-size:1em;
-	line-hight:1.1;
+	line-height:1.1;
 }
-h6{font-family:'roboto slab', serif;
+h6{font-family:'Raleway', sans-serif;
     font-weight:500;
 	font-size:1em;
-	line-hight:1.1;
+	line-height:1.1;
 }
 		
 	h1{
-		font-family:'Roboto' , sans-serif;
+		font-family:'Raleway', sans-serif;
 	    font-size: 48px;
 	
 	}
@@ -66,7 +68,7 @@ h6{font-family:'roboto slab', serif;
 	
 	.small-text{
 		font-size:12px;
-		line-height:1.2
+		line-height:1.2;
 	} 
 	
 /*simple grid-12 columns 60/20*/
@@ -97,6 +99,7 @@ h6{font-family:'roboto slab', serif;
 		width: 300px;
 		float:left;
 		margin-right: 20px;
+		
 	}
 	
 	.columns_3:last-of-type{

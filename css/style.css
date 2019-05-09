@@ -2,18 +2,20 @@
 
 header{
 	width: 100%;
-	background-color: #efefef;
+	background: rgb(9,23,46);
+background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 	position: fixed;
 	top:0;
 	z-index: 1000;
-	padding: 15px 0 8px 0;
+	padding: 15px 10px 8px 0;
 }
 .logo{
-	width: 200px;
-	height: 20px;
+	width: 350px;
+	height: 400px;
+	position:fixed;
 	float :left;
-	margin-top: 15px;
-	background: url("../images/pedagogy.svg") no-repeat;
+	margin-top: 20px;
+	background: url("../images/tap.svg")no-repeat;
 	
 }
 
@@ -38,124 +40,162 @@ nav li {
 	
 }
 nav li a:link{
-	color:#091c5a;
+	color:#B0C8E3;
 	text-decoration:none;
 }
 nav li a:visited{
-	color:#091c5a;
+	color:#B0C8E3;
 	
 	}
 	nav li a:hover{
-	color:#ff6600;
- 	text-decoration: underline;
+	color:#B0C8E3;
+ 	text-decoration: none;
 	}
 	
 nav li a:active{
-	color:#ff6600;
+	color:#B0C8E3;
 }
 
 .section-head{
 	text-align: center;
-	margin-bottom:5px;
+	margin-bottom:45px;
 	margin-top:0;
 }
 .section-copy{
 	text-align: center;
 	font-size:1.2em;
+	
 }
 	
-/*hero video*/
+/*hero image*/
+
+
+	
+
+
+.hero-image{
+	width: 100%;
+	max-height:2000px;
+	overflow: hidden;
+	
+}
+img{
+	
+	width:100%;
+	display: block;
+	
+	
+}
 
 .hero-overlay{
-	position: absolute;
-	top:136px;
-	height: 550px;
+	position:absolute;
+	top:600px;
 	width: 940px;
-	z-index:100;
-	background-image: url("../images/imac.png");
+	z-index: 100;
 	background-repeat: no-repeat;
 	background-position: bottom;
 	overflow: visible;
-}
-
-.hero-video{
-	width: 100%;
-	max-height: 580px;
-	overflow: hidden;
-}
-
-video{
-	min-height: 580px;
-}
-
-.hero-headline{
-	text-align: center;
-	text-transform: uppercase;
+	
 	
 }
 
 
+.hero-headline{
+	text-align: center;
+	
+	
+}
 
 /*introduction*/
-.introduction {
-	width: 100%;
-	padding: 120px 0 100px 0;
-	background-color:#ffffff;
-}
 
 /*about us*/
 .about{
 	width: 100%;
-	padding: 100px 0 100px 0;
-	background-color:#efefef;
+	padding: 100px;
+background: rgb(34,93,157);
+background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 }
 
 .about{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color:#efefef;
+	
+}
+
+.about img{
+	border-radius: 17%;
+	margin-top:0;
+	padding-bottom: 20px;
+} 
+
+.about-head{
+	text-align: center;
+	margin-bottom:3px;
+	margin-top:0;
+} 
+
+ 
+.culture{
+	width: 100%;
+	padding: 100px;
+background: rgb(9,23,46);
+background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+}
+
+.culture{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color:#efefef;
+	
+} 
+
+.culture img{
+	border-radius: 17%;
+	padding-bottom: 20px;
+}
+ 
+.history{
+	width: 100%;
+	padding: 100px 0 100px 0;
+background: rgb(34,93,157);
+background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
+}
+
+.history{
 	width: 100%;
 	padding: 100px 0 100px 0;
 	background-color:#efefef;
 	
 }
  
-/*Customer Testimonials*/
-
-.testimonials {
-	width:100%;
-	padding: 100px 0;
-	background-color: #ffffff;
+.history img{
+	border-radius: 17%;
+	padding-bottom: 20px;
 }
-	
-.testimonials img{
-	width:130px;
-	margin-bottom:10px;
-	border-radius: 50%;
+.cuisine{
+	width: 100%;
+	padding: 100px 0 100px 0;
+background: rgb(9,23,46);
+background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 }
 
-/*projects*/
-
-.projects{
-	width:100%;
-	padding:100px 0;
-	background-color: #efefef;	
+.cuisine{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color:#efefef;
+	padding-bottom:-20px;
 	
 }
+.cuisine img{
+	border-radius: 17%;
+	padding-bottom: 20px;
+}
 
-.project-box{
-	background-color: #f8f8f8;
+.cuisine-copy{
+	margin-bottom: 20px;
+	margin-left:14px;
 	
-}
-
-.project-text{
-	text-align: left;
-	padding: 10px 20px;
-		
-}
-
-.project-link{
-	font-size:.7em;
-	letter-spacing:.09em;
-	text-transform: uppercase;
-	font-weight:900;
 }
 
 /*features*/
@@ -163,12 +203,13 @@ video{
 .features{
 	width:100%;
 	padding: 100px 0;
-	background: #ffffff;
+	background: rgb(9,23,46);
+background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 	
 }
 
 .features-subhead{
-	text-align: left;
+	text-align: center;
 	margin-left: 60px;
 	 
 	
@@ -176,9 +217,68 @@ video{
 
 .features-copy{
 	margin-bottom: 20px;
-	margin-left: 60px;
-	text-align: left;	
+	margin-left:14px;
+	text-align: center;	
 }
+
+
+.accommodations{
+	
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background: rgb(34,93,157);
+background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
+	padding-bottom:20px;
+	padding-top: 20px;
+}
+.accommodations img{
+	border-radius: 20%;
+	padding-bottom: 30px;
+}
+
+.accommodations-copy{
+	margin-bottom: 20px;
+	margin-left:14px;
+	
+}
+
+
+
+/*Customer Testimonials*/
+
+.testimonials {
+	width:100%;
+	padding: 100px 0;
+	background: rgb(34,93,157);
+background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
+}
+	
+
+.testimonials img{
+	width:200px;
+	margin-left:0px;
+	margin-bottom:10px;
+	border-radius:20%;
+	padding-bottom:-40px;
+	
+}
+
+.testimonial-txt{
+margin-left:40px;	
+width: 300px;
+padding: 10px 20px;
+}
+
+.testimonial-copy{
+	margin-left:-1px;
+	width: 300px;
+	text-align:left;
+
+	
+}
+
+
+
 
 .fa-github,
 .fa-html5,
@@ -200,120 +300,38 @@ video{
 	
 }
 
-/* Memberships*/
 
-.memberships{
-	width: 100%;
-	padding:100px 0;
-	background-color:#eeeeee;
-		
-}
-
-.membership-free,
-.membership-monthly,
-.membership-yearly {
-		font-size:2em;
-		font-color:#ffffff;
-		text-align:center;
-		padding: 20px 0;
-	
-}
-
-.membership-free {
-	background-color:#a3a3a3;
-	
-}
-
-.membership-monthly {
-	background-color:#6e6e6e;
-	
-}
-
-.membership-yearly {
-	background-color:#a3a3a3;
-	
-}
-
-
-.membership-cost{
-	font-size:1.2em;
-	fontcolor:#000000;
-	font-weight:900;
-	text-align:center;
-	padding: 10px 0;
-	background-color:#dedede;
-}
-
-.membership-features{
-	text-align: center;
-	padding: 30px 0 20px 0;
-	background-color: #f6f6f6;
-}
-
-.membership-features ul {
-	padding: 0;
-	margin: 0;
-	text-align: center;
-}
-
-.membership-features li {
-	list-style: none outside none;
-	padding: 0 20px 10px 20px;
-}
-
-
-.membership-btn{
-	margin: 30px auto;
-}
-
-.membership-btn a:link{
-	border-radius: 5px;
-	background-color: #dedede;
-	padding: 10px 30px;
-	font-size: .9em;
-	font-weight: 100;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-	color: #515255;
-}
-
-/*locations*/
-
-.location{
-	width:100%;
-	padding:100px 0;
-	background-color: #ffffff;
-	
-}
-
-location img {
-	margin-bottom: 10px;
-}
 
 /*contact us*/
 
 .contact{
 	width: 100%;
 	padding: 100px 0;
-	background-color: #efefef;
+	background: rgb(9,23,46);
+background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+	
 }
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea,
 .contact-form select{
-	width:460px;
+	width:360px;
 	height:35px;
 	margin-bottom:25px;
 	padding: 5px 5px 5px 10px;
 	border: 1px solid #dadada;
 	color:#888888;
 	font-weight:100;
+	border-radius: 20px;
 }
 
 .contact-form textarea {
 	height:200px;
+} 
+
+.contact img{
+	border-radius: 17%;
 }
 
 .city{
@@ -325,9 +343,10 @@ location img {
 
 footer{
 	width: 100%;
-	padding: 90px 0 80px 0;
+	padding: 50px 0 50px 0;
 	text-align: center;
-	background-color: #3c3c3c;
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,23,46,1) 0%);
 }
 
 footer a :link{
@@ -354,6 +373,13 @@ footer a :active{
 	
 }
 
+footer img{
+	height:40px;
+	width:40px;
+	padding:20px;
+	
+}
+
 .copyright{
 	width: 100%;
 	color:#959595;
@@ -361,15 +387,16 @@ footer a :active{
 .copyright p {
 	margin-bottom: 0;
 }
-.fa-linkedin,
+.fa-unesco,
+.fa-snapchat,
 .fa-twitter,
 .fa-facebook-f{
 	font-size: 2em;
 	margin: 20px 5px 0 5px;
-	color: #959595;
+	color: #B7D8FF;
 }
-
-.fa-linkedin:hover,
+.fa-unesco:hover,
+.fa-snapchat:hover,
 .fa-twitter:hover,
 .fa-facebook-f:hover{
 	color: #ffffff;
@@ -377,6 +404,14 @@ footer a :active{
 
 }
 
+.logo-un{
+	width: 50px;
+	height: 40px;
+	position:fixed;
+	float :left;
+	margin-top: 20px;
+	background: url("../images/UNESCO-logo 2.svg")no-repeat;
+}
 /*desktopand and laptops*/
 
 @media only screen and (min-width : 1224px) {
