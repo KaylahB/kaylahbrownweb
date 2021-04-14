@@ -10,12 +10,12 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 	padding: 15px 10px 8px 0;
 }
 .logo{
-	width: 350px;
-	height: 400px;
+	width:400px;
+	height:400px;
 	position:fixed;
 	float :left;
-	margin-top: 20px;
-	background: url("../images/tap.svg")no-repeat;
+	margin-top:0px;
+	background: url("../images/logo-type1.svg")no-repeat;
 	
 }
 
@@ -124,7 +124,7 @@ background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 }
 
 .about img{
-	border-radius: 17%;
+	border-radius:0%;
 	margin-top:0;
 	padding-bottom: 20px;
 } 
@@ -151,7 +151,7 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 } 
 
 .culture img{
-	border-radius: 17%;
+	border-radius: 0%;
 	padding-bottom: 20px;
 }
  
@@ -170,7 +170,7 @@ background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 }
  
 .history img{
-	border-radius: 17%;
+	border-radius: 0%;
 	padding-bottom: 20px;
 }
 .cuisine{
@@ -188,7 +188,7 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 	
 }
 .cuisine img{
-	border-radius: 17%;
+	border-radius: 0%;
 	padding-bottom: 20px;
 }
 
@@ -232,8 +232,8 @@ background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 	padding-top: 20px;
 }
 .accommodations img{
-	border-radius: 20%;
-	padding-bottom: 30px;
+	border-radius: 0%;
+	padding-bottom:10px;
 }
 
 .accommodations-copy{
@@ -258,7 +258,7 @@ background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 	width:200px;
 	margin-left:0px;
 	margin-bottom:10px;
-	border-radius:20%;
+	border-radius:0%;
 	padding-bottom:-40px;
 	
 }
@@ -266,7 +266,7 @@ background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 .testimonial-txt{
 margin-left:40px;	
 width: 300px;
-padding: 10px 20px;
+padding: 10px -60px;
 }
 
 .testimonial-copy{
@@ -323,7 +323,7 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 	border: 1px solid #dadada;
 	color:#888888;
 	font-weight:100;
-	border-radius: 20px;
+	border-radius: 0px;
 }
 
 .contact-form textarea {
@@ -331,7 +331,7 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 } 
 
 .contact img{
-	border-radius: 17%;
+	border-radius: 0%;
 }
 
 .city{
