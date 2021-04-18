@@ -48,7 +48,7 @@ nav li a:visited{
 	
 	}
 	nav li a:hover{
-	color:#B0C8E3;
+	color:#d87e09;
  	text-decoration: none;
 	}
 	
@@ -209,8 +209,9 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 }
 
 .features-subhead{
-	text-align: center;
+	text-align:center;
 	margin-left: 60px;
+
 	 
 	
 }
@@ -229,11 +230,12 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 	background: rgb(34,93,157);
 background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 	padding-bottom:20px;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 .accommodations img{
 	border-radius: 0%;
-	padding-bottom:10px;
+	padding-top:20%;
+	padding-bottom:40%;
 }
 
 .accommodations-copy{
@@ -248,7 +250,7 @@ background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 
 .testimonials {
 	width:100%;
-	padding: 100px 0;
+	padding:100px 0;
 	background: rgb(34,93,157);
 background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 }
@@ -256,7 +258,8 @@ background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 
 .testimonials img{
 	width:200px;
-	margin-left:0px;
+	float:center;
+	margin-left:50px;
 	margin-bottom:10px;
 	border-radius:0%;
 	padding-bottom:-40px;
@@ -264,14 +267,17 @@ background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 }
 
 .testimonial-txt{
-margin-left:40px;	
-width: 300px;
-padding: 10px -60px;
+float: left;
+margin-left:94px;	
+width:300px;
+
+font-weight: bold;
 }
 
+
 .testimonial-copy{
-	margin-left:-1px;
-	width: 300px;
+	margin-left:10px;
+	width:300px;
 	text-align:left;
 
 	
@@ -383,6 +389,7 @@ footer img{
 .copyright{
 	width: 100%;
 	color:#959595;
+	float:inherit;
 }
 .copyright p {
 	margin-bottom: 0;
@@ -400,17 +407,15 @@ footer img{
 .fa-twitter:hover,
 .fa-facebook-f:hover{
 	color: #ffffff;
-
-
 }
 
 .logo-un{
-	width: 50px;
+	width: 100px;
 	height: 40px;
-	position:fixed;
-	float :left;
-	margin-top: 20px;
-	background: url("../images/UNESCO-logo 2.svg")no-repeat;
+	position:absolute;
+	float :center;
+	margin-top: 40px;
+	
 }
 /*desktopand and laptops*/
 
